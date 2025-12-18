@@ -59,5 +59,5 @@ jobs:
           # 注意：镜像名称必须全部小写
           # 格式：ghcr.io/用户名/仓库名:标签
           tags: |
-            ghcr.io/${{ github.repository_owner }}/ci-cd-practice:latest
-            ghcr.io/${{ github.repository_owner }}/ci-cd-practice:${{ github.sha }}
+            ghcr.io/weirdo0411/ci-cd-practice:latest
+            ghcr.io/weirdo0411/ci-cd-practice:${{ github.sha }}
